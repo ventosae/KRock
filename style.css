@@ -1,0 +1,118 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background-color: #fcfcfc;
+
+	}
+		
+	* {
+
+  padding: 0;
+  margin:0;
+}
+
+.wrapper {
+	  width: 100%;
+  margin: auto;
+
+}
+
+h1, p, h2 {
+	 color: #514c49;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+header {
+	background: url(img/rock2.jpeg) no-repeat center  ;
+	padding-top: 200px;
+	height: 500px;
+	width: 100%;
+	background-attachment: fixed;
+	position: relative;
+	background-size: cover;
+}
+
+.htext {
+	text-align: center;
+	margin-left: auto;
+	margin-top: auto;
+	color: #fff;
+	width: 100%;
+}
+
+.htext p {    text-decoration: underline;
+}
+
+.htext h1 { color: #EB282D;}
+
+ 
+/*********************************************************************************/
+/* Features                                                                      */
+/*********************************************************************************/
+.main1 {
+	background-color: #efebe0;
+
+
+}
+.main1 div {
+ 
+	text-align: center;
+	margin:auto;
+}
+
+.main1 h1, p {
+	text-align: center;
+}
+
+.main1 p {
+	line-height: 1.6;
+ 	font-size: 1.2em;
+
+}
+
+.main11 {
+		padding-top: 40px;
+	padding-bottom: 20px;
+	max-width: 70%;
+	height: 100%;
+}
+
+.main1 hr {
+    border: 0;
+    border-top: solid 1px #514c49;
+    margin: 2em 0 0 0;
+    padding: 2em 0 0 0;
+    width:70%;
+}
+
+.feature1 {
+	padding-bottom: 10px;
+	float: left;
+	width: 33%;
+}
+
+.feature1 h2 {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.feature {
+max-width: 70%;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+   content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
