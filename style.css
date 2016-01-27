@@ -80,17 +80,26 @@ header {
 
 .main11 {
 		padding-top: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 3em;
 	max-width: 70%;
 	height: 100%;
 }
 
-.main1 hr {
+/*.main1 hr {
     border: 0;
     border-top: solid 1px #514c49;
-    margin: 2em 0 0 0;
+    margin: 2em 0em 0 0em;
     padding: 2em 0 0 0;
-    width:70%;
+	display: block;
+	max-width: 50%;
+}
+*/
+.hr {
+	width: 50%;
+	border: 0;
+    border-top: solid 1px #514c49;
+    margin: 2em 0 0 0;
+    padding: 2em 0 2em 0;
 }
 
 .feature1 {
