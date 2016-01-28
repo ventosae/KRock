@@ -83,6 +83,7 @@ header {
 	padding-bottom: 3em;
 	max-width: 70%;
 	height: 100%;
+	
 }
 
 /*.main1 hr {
@@ -97,12 +98,13 @@ header {
 .hr {
 	width: 50%;
 	border: 0;
-    border-top: solid 1px #514c49;
-    margin: 2em 0 0 0;
-    padding: 2em 0 2em 0;
+ border-bottom: solid 1px #514c49;
+    margin: 2em 0 2em 0;
+/*    padding: 0 0 3em 0;*/
 }
 
 .feature1 {
+	padding-top: 3em;
 	padding-bottom: 10px;
 	float: left;
 	width: 33%;
@@ -135,4 +137,28 @@ max-width: 70%;
     display: block;
     clear: both;
     height: 0;
+}
+
+/*********************************************************************************/
+/* GIF                                                                           */
+/*********************************************************************************/
+.gifcover {
+	    width: 70%;
+ 
+    margin: auto;
+    max-width: 960px;
+}
+
+.gif {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  margin: 65px 0 60px;
+  background: #434a52 url(img/downloadv2.gif) no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
+/*  border-radius: 10px;*/
+  max-width: 960px;
+ 
+
 }
