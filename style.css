@@ -113,9 +113,20 @@ header {
 	padding-bottom: 10px;
 }
 
+
+.feature1 img {
+	max-width: 100%
+}
+
+.feature1 p {
+	line-height: 1.6;
+ 	font-size: 1em;
+
+}
 .feature {
 max-width: 70%;
 }
+
 
 /* Float Clearfix ------------------ */
 
