@@ -99,7 +99,7 @@ header {
 	width: 50%;
 	border: 0;
     border-bottom: solid 1px #514c49;
-    margin: 2em 0 2em 0;
+    margin: auto;
     max-width: 960px;
  
 }
@@ -130,6 +130,15 @@ header {
 max-width: 70%;
 }
 
+.hrgif {
+	width: 50%;
+	border: 0;
+    border-bottom: solid 1px #514c49;
+    margin: auto;
+    max-width: 960px;
+    margin-bottom: 60px;
+ 
+}
 
 /* Float Clearfix ------------------ */
 
@@ -168,3 +177,16 @@ max-width: 70%;
 	font-size: 4em;
 	text-decoration: underline #fff;  
 }
+
+/*********************************************************************************/
+/* TWITTER                                                                       */
+/*********************************************************************************/
+.twittertimeline1 {
+	margin: auto;
+	max-width: 960px;
+	display: block;
+	width: 100%;
+
+}
+
+ 
