@@ -98,9 +98,10 @@ header {
 .hr {
 	width: 50%;
 	border: 0;
- border-bottom: solid 1px #514c49;
+    border-bottom: solid 1px #514c49;
     margin: 2em 0 2em 0;
-/*    padding: 0 0 3em 0;*/
+    max-width: 960px;
+ 
 }
 
 .feature1 {
@@ -144,9 +145,9 @@ max-width: 70%;
 /*********************************************************************************/
 .gifcover {
 	    width: 70%;
- 
+  max-width: 960px;
     margin: auto;
-    max-width: 960px;
+ 
 }
 
 .gif {
@@ -157,8 +158,13 @@ max-width: 70%;
   background: #434a52 url(img/downloadv2.gif) no-repeat center;
   background-size: cover;
   box-shadow: inset 0 0 50px 10px rgba(0,0,0, .8);
-/*  border-radius: 10px;*/
-  max-width: 960px;
- 
 
+}
+
+.gif h3 {
+    text-align: center;
+	color: #fff;
+	width: 100%;
+	font-size: 4em;
+	text-decoration: underline #fff;  
 }
