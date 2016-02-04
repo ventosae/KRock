@@ -26,6 +26,7 @@ h1, p, h2 {
 	 color: #514c49;
 }
 
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -86,27 +87,18 @@ header {
 	
 }
 
-/*.main1 hr {
-    border: 0;
-    border-top: solid 1px #514c49;
-    margin: 2em 0em 0 0em;
-    padding: 2em 0 0 0;
-	display: block;
-	max-width: 50%;
-}
-*/
-
+ 
 .hrwrapper {
 	    margin: auto;
 		border: 0;
-		max-width: 100%;
+		max-width: 50%
 }
 .hr {
  
 	
     border-bottom: solid 1px #514c49;
     margin: auto;
-    max-width: 960px;
+ 
  
 }
 
@@ -148,7 +140,14 @@ max-width: 70%;
 
 /* Float Clearfix ------------------ */
 
-.group:after {
+.group {
+   content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.group1::after {
    content: '';
     display: block;
     clear: both;
@@ -159,12 +158,33 @@ max-width: 70%;
 /* GIF                                                                           */
 /*********************************************************************************/
 .gifcover {
-	    width: 70%;
-  max-width: 960px;
+
+  max-width: 50%;
     margin: auto;
+  max-height: 100%
  
 }
 
+.gifcover h2 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 2em;
+
+}
+
+.gifcover hr {
+
+	color: #514c49;
+	border-color:#514c49;
+	display:block;
+	 height:1px;
+	 border:0; 
+	 border-top:1px solid #514c49;
+	 padding:0;
+
+
+}
 .gif {
   color: white;
   text-align: left;
@@ -182,22 +202,21 @@ max-width: 70%;
 	width: 100%;
 	font-size: 4em;
 	text-decoration: underline #fff;  
+	display: inherit;
 }
 
 /*********************************************************************************/
 /* TWITTER                                                                       */
 /*********************************************************************************/
-.twittertimeline1 {
-	margin: auto;
-	max-width: 960px;
-	display: block;
-	width: 100%;
-
-}
-
-.twittertimeline1 h1 {
- text-align: center;
-}
-
-
  
+.gifcovertw {
+	float: left;
+	max-width: 49%;
+	padding-right: 0.5%;
+} 
+.gifcovertw1 {
+	padding-top: 10px;
+	float: right;
+	max-width: 50%;
+	padding-left: 0.5%;
+}
